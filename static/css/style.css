@@ -2,16 +2,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-form {
+#greeting-form, #greeting-card {
+    width: 600px;
+    height: auto;
+    padding: 5px 50px 50px 50px;
+}
+
+#greeting-form {
     font-family: 'Roboto', sans-serif;
 }
 
 #greeting-card {
-    width: 600px;
-    height: 300px;
+    background-color: paleturquoise;
     font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
 }
 
 #greeting-title {
