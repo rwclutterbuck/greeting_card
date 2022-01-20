@@ -13,8 +13,27 @@
 </head>
 <body>
     <main>
+        <h2></h2>
         <form id="greeting-form">
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="John" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
 
+            <input type="radio" id="Christmas" name="event" value="Christmas" />
+            <label for="Christmas">Christmas</label><br />
+            <input type="radio" id="New Year" name="event" value="New Year" />
+            <label for="New Year">New Year</label><br />
+            <input type="radio" id="Birthday" name="event" value="Birthday" />
+            <label for="Birthday">Birthday</label>
+
+            <br />
+            <br />
+
+            <label for="message">Please enter the personal message here:</label><br />
+            <input type="text" id="message" value="Happy birthday!" /><br /><br />
+
+            <input type="submit" value="Submit" />
         </form>
         <section id="greeting-card">
             <h1 id="greeting-title">Happy Birthday!</h1>
