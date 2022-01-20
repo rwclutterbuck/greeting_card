@@ -5,7 +5,7 @@ function createGreeting(first_name, last_name, event, message) {
 
     greeting.innerHTML = `${first_name.value} ${last_name.value}`;
     outputMessage.innerHTML = message.value;
-    outputEvent.backgroundImage = "https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs185_177502406-low.jpg?itok=ubWa1SJj";
+    outputEvent.style.backgroundImage = "https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs185_177502406-low.jpg?itok=ubWa1SJj";
 }
 
 module.exports = {
