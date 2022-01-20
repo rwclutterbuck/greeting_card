@@ -1,1 +1,0 @@
-console.error("\nC:\\Users\\rxdvd\\futureproof\\greeting_card\\static\\js\\handlers.js:3\n    let message = document.querySelector();\n        ^\nParseError: Identifier 'message' has already been declared");
