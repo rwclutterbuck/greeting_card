@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+}
+
+#greeting-card {
+    width: 600px;
+    height: 300px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#greeting-title {
+    font-size: 60px;
+}
+
+#greeting-message {
+    font-size: 35px;
+}
