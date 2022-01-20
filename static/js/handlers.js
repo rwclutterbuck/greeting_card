@@ -8,3 +8,7 @@ function createGreeting(first_name, last_name, event, message) {
     outputMessage.innerHTML = "Hello unicorns";
     outputEvent.background = "red";
 }
+
+module.exports = {
+    createGreeting
+}
