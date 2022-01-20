@@ -1,4 +1,4 @@
-// const handlers = require('./handlers');
+const handlers = require('./handlers');
 
 function showBackground(event){
     if (event=="Birthday"){
@@ -16,6 +16,7 @@ function showBackground(event){
 
 }
 
+
 function init() {
     const greetingForm = document.querySelector('form');
     greetingForm.addEventListener("submit", e => {
@@ -29,11 +30,3 @@ function init() {
         showBackground(event);
     })
 }
-
-
-
-
-init();
-
-
-// module.exports = {showBackground, init};
